@@ -1,0 +1,210 @@
+html
+{ 
+    background: url(images/homehorse.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body, html 
+{
+    height: 100%;
+    margin: 0;
+}
+nav
+{
+    background-color: rgb(64, 64, 64);
+}
+nav ul
+{
+	padding-left: 1%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+nav li
+{
+    display: inline-block;   
+    padding: 2%;  
+}
+nav li:hover
+{
+    background-color: rgb(218,165,32);
+}
+nav li a
+{
+	display: block;
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+}
+blockquote p
+{
+    display: inline;
+    padding: 15px;
+    align-content: center;
+}
+footer 
+{
+    text-align: center;
+}
+.limelight
+{
+    width: 20%;
+    border-radius: 15px;
+    margin-left: 22%
+}
+.torchlight
+{
+    border-radius: 25%;
+}
+.starlight
+{
+    text-align: center;
+    margin-right: 40%;
+    margin-top: 20px;
+}
+.lanternlight article p img
+{   
+    width: 125px;       
+    float: left;          
+    margin: 0px 10px;
+    flex: 1 1 0; 
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.lanternlight article p
+{
+    padding-bottom: 50px;
+    flex: 1 1 0; 
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+.moonlight
+{
+    display: block;
+}
+.moonlight article
+{
+    flex: 1 1 0; 
+    background-color:transparent
+    padding: 0px 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.moonlight article h4, p
+{
+    padding: 0px 30% 0px 20px;
+    font-family: Trebuchet MS;
+}
+@media screen and (min-width: 470px)
+{
+    header h1, h2 
+    {
+        margin-left: 5%;
+        padding: 20px 1% 20px 10px;
+        font-family: Trebuchet MS;
+        font-size: 3.1vw;
+    }
+    .section_main, .aside_main
+    {  
+        padding: 0px -10% 10px 0px;
+        font-family: Trebuchet MS;
+    } 
+    .lanternlight article
+    {
+        display: inline-block; 
+        width: 400px;
+        padding: 0px 20px;
+        flex: 1 1 0; 
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .gaslight
+    {
+       margin-left: 15%; 
+       text-decoration: underline;
+       font-size: 3.25vw;
+
+    }
+    }/*end of 470 px*/
+
+@media screen and (min-width: 650px)
+{
+    header h1, h2 
+    {
+        margin-left: 5%;
+        padding: 20px 39% 0% 40px;
+        font-family: Trebuchet MS;
+        font-size: 2.5vw;
+    }
+    nav li a
+    {
+    	font-size: 1.25em; 
+	}
+    .section_main, .aside_main
+    {  
+        padding: 0px 30% 10px 20px;
+        font-family: Trebuchet MS;
+    }
+    .lanternlight article
+    {
+        display: inline-block; 
+        width: 600px;
+        padding: 0px 20px;
+        flex: 1 1 0; 
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .gaslight
+    {
+       margin-left: 15%; 
+       text-decoration: underline;
+       font-size: 3vw;
+
+    }
+    }  /*end of 650 px*/
+
+@media screen and (min-width: 850px)
+{
+    header h1, h2 
+    {
+        margin-left: 5%;
+        padding: 20px 49% 10px 40px;
+        font-family: Trebuchet MS;
+        font-size: 2vw;
+    }
+    nav li a
+    {
+        font-size: 1.25em; 
+    }
+    .section_main, .aside_main
+    {  
+        padding: 0px 30% 10px 20px;
+        font-family: Trebuchet MS;
+    }
+    .lanternlight article
+    {
+        display: inline-block; 
+        width: 800px;
+        padding: 0px 20px;
+        flex: 1 1 0; 
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .gaslight
+    {
+       margin-left: 15%; 
+       text-decoration: underline;
+       font-size: 1.55vw;
+
+    }
+    }  /*end of 650 px*/
+
